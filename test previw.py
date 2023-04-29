@@ -9,12 +9,9 @@ url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&
 response = requests.get(url)
 
 data = response.json()
-current_open = float(data["Global Quote"]["02. open"])
-current_low = float(data["Global Quote"]["04. low"])
 current_price = float(data["Global Quote"]["05. price"])
 current_previous = float(data["Global Quote"]["08. previous close"])
 
-print(f"O preço abertura da ação da {symbol} é: ${current_open:.2f}")
-print(f"O preço fechamento da ação da {symbol} é: ${current_low:.2f}")
+print(f"O preço abertura da ação da {symbol} é: ${current_price:.2f}")
 print(f"O preço previsto da ação da {symbol} é: ${current_previous:.2f}")
 
