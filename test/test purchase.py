@@ -15,7 +15,7 @@ import time
 # time.sleep(2)
 # # browker
 # pyautogui.click(x=415, y=435)
-time.sleep(15)
+time.sleep(5)
 
 
 # ação
@@ -35,6 +35,11 @@ time.sleep(2)
 pyautogui.click(x=549, y=217)
 pyautogui.click(x=549, y=217)
 pyautogui.write("1")
+time.sleep(2)
+# Setar o preço Point(x=365, y=299)
+pyautogui.click(x=365, y=299)
+pyautogui.click(x=365, y=299)
+pyautogui.write("1100")
 time.sleep(2)
 # Confirma Botão de compra
 pyautogui.click(x=702, y=382)
