@@ -1,4 +1,4 @@
-# Projeto de Multiagentes Baseados em Blockchain para Análise e Negociação Automatizada de Ações na Bolsa Brasileira
+# Projeto de Multiagentes Baseados em Blockchain para Análise e Negociação Automatizada de Ações na Bolsa Brasileira 
 
 O projeto de multiagentes baseados em blockchain para análise e negociação automatizada de ações na bolsa brasileira é uma iniciativa inovadora que combina a tecnologia de blockchain com a inteligência artificial para permitir a análise de mercado em tempo real e a execução automática de negociações de ações. O objetivo principal do projeto é fornecer aos investidores uma solução eficiente e confiável para identificar oportunidades de investimento e realizar transações automaticamente, com base em regras e estratégias personalizadas.
 
